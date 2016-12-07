@@ -58,5 +58,9 @@ class ViewController: UIViewController {
         }
         
     }
+    
+    @IBAction func swipe(_ sender: UISwipeGestureRecognizer) {
+        print("swipe")
+    }
 
 }
